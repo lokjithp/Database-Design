@@ -48,4 +48,21 @@ foreign key(tweet_id) references original_tweets
 
 The relationship between hashtags and original_tweets table is many to one i.e., many hashtags may be related to one tweet.
 
+FEW queries related to fetching the required data from tables:
+
+How are these tweets distributed across languages?
+Write a query that shows, for every language (user_lang) the number of tweets in that language.
+
+select user_lang,sum(counts) as total_tweets from (
+select user_lang,count(tweet_id) as counts from original_tweets ot join 
+user_details ud on ot.user_id=ud.user_id
+group by ud.user_lang
+union all
+select user_lang,count(tweet_id) as counts from retweeted_tweets rt join 
+user_details ud on rt.user_id=ud.user_id
+group by ud.user_lang
+) as total_language_counts
+group by total_language_counts.user_lang
+order by total_tweets desc;
+
 
