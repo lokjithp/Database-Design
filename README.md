@@ -1,5 +1,16 @@
 # Database-Design
 
+## All about database design- why do we need it?
+Database design is the most important process in terms of Software engineering because it's the strong backbone to make efficient programs that run smoothly over the front end which needs effective querying!
+
+Don't you think a single table handles the requirements well?
+
+Yeah, having a single table for the entire database is simple but this makes things complex to handle various operations related to the data and in other terms, it just makes things messy and won't be an effective solution considering the future!
+
+That's the reason why Database normalization principles are available for us so that a simple and effective split up of tables can be possible with the help of various functional dependencies so that we have a better way of handling things which is easily maintainable and future efficient!
+
+
+
 This is a database design in third normal form for Twitter application scenario where the user posts the tweets which contains text and hashtags.
 
 
