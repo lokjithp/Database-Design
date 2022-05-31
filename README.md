@@ -3,7 +3,7 @@
 ## All about database design- why do we need it?
 Database design is the most important process in terms of Software engineering because it's the strong backbone to make efficient programs that run smoothly over the front end which needs effective querying!
 
-Don't you think a single table handles the requirements well?
+## Don't you think a single table handles the requirements well?
 
 Yeah, having a single table for the entire database is simple but this makes things complex to handle various operations related to the data and in other terms, it just makes things messy and won't be an effective solution considering the future!
 
