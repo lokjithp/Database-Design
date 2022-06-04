@@ -13,7 +13,7 @@ That's the reason why Database normalization principles are available for us so 
 
 This is a database design in third normal form for Twitter application scenario where the user posts the tweets which contains text and hashtags.
 
-
+This is where more data needed!
 
 USER_TIME_ZONE_OFFSET: 
 user_time_zone character varying (127) primary key,
