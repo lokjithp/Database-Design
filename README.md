@@ -16,6 +16,7 @@ This is a database design in third normal form for Twitter application scenario 
 This is where more data needed!
 
 ## USER_TIME_ZONE_OFFSET: 
+
 -user_time_zone character varying (127) primary key,
 -user_utc_offset integer
 
