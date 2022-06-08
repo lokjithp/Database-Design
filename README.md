@@ -17,8 +17,8 @@ This is where more data needed!
 
 ## USER_TIME_ZONE_OFFSET: 
 
--user_time_zone character varying (127) primary key,
--user_utc_offset integer
+- user_time_zone character varying (127) primary key,
+- user_utc_offset integer
 
 In this table, only two attributes are considered which are user_time_zone and user_utc_offset. In a general real-world scenario, the user_location might also be considered but as per the given data, the location is given something as a fake value like in my home, in my room etc which does not matches with the real-world location and hence the user_location is not added in here. For example, in a bigger scenario, an ideal design might include location, time_zone and utc_offset in a single table since the time_zone and utc_offset depends on the location
 
