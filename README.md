@@ -7,7 +7,9 @@ Database design is the most important process in terms of Software engineering b
 
 Yeah, having a single table for the entire database is simple but this makes things complex to handle various operations related to the data and in other terms, it just makes things messy and won't be an effective solution considering the future!
 
-That's the reason why Database normalization principles are available for us so that a simple and effective split up of tables can be possible with the help of various functional dependencies so that we have a better way of handling things which is easily maintainable and future efficient which is accessible and more open for updates or any kind of operations without much difficulties!
+That's the reason why Database normalization principles are available for us so that a simple and effective split up of tables can be possible with the help of various functional dependencies so that we have a better way of handling things which is easily maintainable and future efficient which is accessible and more open for updates or any kind of operations without much difficulties! 
+
+Also, It will be easier and efficient to write any stored procedures or functions as per our requirement if the tables are properly designed!
 
 
 
