@@ -1,5 +1,10 @@
 # Database-Design
 
+What actually is a database?
+
+It's somewhere that the data is stored in a structured format which is pretty standard format so that it will be beneficial and easier to perform any data related operations.
+
+
 ## All about database design- why do we need it?
 Database design is the most important process in terms of Software engineering because it's the strong backbone to make efficient programs that run smoothly over the front end which needs effective querying!
 
