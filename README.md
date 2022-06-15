@@ -4,6 +4,9 @@ What actually is a database?
 
 It's somewhere that the data is stored in a structured format which is pretty standard format so that it will be beneficial and easier to perform any data related operations.
 
+## Main things that can be done with the database:
+- store data in terms of tables/relations so that the related entities can be mapped with keys.
+- write logic in terms of views, procedures, functions such that it helps to retrieve data effectively.
 
 ## All about database design- why do we need it?
 Database design is the most important process in terms of Software engineering because it's the strong backbone to make efficient programs that run smoothly over the front end which needs effective querying!
