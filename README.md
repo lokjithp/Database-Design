@@ -1,6 +1,6 @@
 # Database-Design
 
-What actually is a database?
+What actually is  a database?
 
 It's somewhere that the data is stored in a structured format which is pretty standard format so that it will be beneficial and easier to perform any data related operations.
 
